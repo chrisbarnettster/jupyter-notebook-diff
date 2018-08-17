@@ -21,7 +21,8 @@ edit ~/.gitconfig and change diff to webdiff as follows:
 command = git-nbdiffdriver webdiff 
 ```
 
-`git diff *.ipynb`
+- compare jupyter notebook file with local changes `git diff file.ipynb` 
+- compare different jupyter notebooks `nbdiff-web file1.ipynb file2.ipynb` 
 
 ## Usage
 
